@@ -1,0 +1,90 @@
+body {
+   
+    background-image: url("images/dark-abstract-black-minimal-4k-q0-1920x1080.jpg");
+    margin-top: 70px;
+    padding: 44px
+    
+   }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    font-family: Lato;
+    padding-top: 15px;
+    left: 0px;
+    
+    
+  }
+  
+  li {
+    font-family: Lato;
+  
+  
+  }
+
+
+
+
+img {
+  position: relative;
+  top: 500px;
+  left: 0px;
+  width: 150px;
+  height:150px;
+}
+div#data-hora 
+{  
+  position: relative;
+  top: -25px;
+  left: 0px;
+  color: white;
+  font-family: Lato;
+  text-align: left;
+  width: 186px;
+  height: 0px;
+  float: right;
+  display: block;
+}
+#savage
+{
+  position: relative;
+  top: 143px;
+  left: 0px;
+  width: 386px;
+  height: 260px;
+  border-radius: 25px;
+  border: 2px solid #000000;
+                }
+#campodate
+  {
+  position: relative;
+   top: 143px;
+   left: 200px;
+   width: 386px;
+   height: 260px;
+   border-radius: 25px;
+   border: 2px solid #000000;
+                 }
+#botão
+{ 
+position: absolute;
+   top: 320px;
+   left: 761px;
+   color:black
+   
+               }
+h2 
+{
+color: white;
+text-align: center;
+font-family: Lato;
+padding-top: 15px;
+left: 0px;
+top: 0px;
+            }
+div#gamesbrabos {
+position: relative;
+left: 126px;
+top: 0px;
+
+}

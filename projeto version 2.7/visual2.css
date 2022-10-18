@@ -1,0 +1,56 @@
+body {
+    background-image: url("images/dark-abstract-black-minimal-4k-q0-1920x1080.jpg");
+    background-color: #000000d4;
+    margin-top: 70px;
+    padding: 44px;
+  }
+  div#data-hora 
+  {  
+    position: relative;
+    top: -25px;
+    left: 0px;
+    color: white;
+    font-family: Lato;
+    text-align: left;
+    width: 186px;
+    height: 0px;
+    float: right;
+    display: block;
+  }
+
+img {
+  position: relative;
+  top: 500px;
+  left: 0px;
+  width: 150px;
+  height:150px;
+}
+
+ul {
+  background-color: #333
+  
+
+}
+  h1 {
+    color: white;
+    text-align: center;
+    font-family: Lato;
+    padding-top: 15px;
+    top: -250px;
+    
+    
+  }
+  
+  li {
+    font-family: Lato;
+  }
+ h2 {
+  font-family: Lato;
+  font-size: 20px;
+  color: white;  
+  position: relative;
+  top: 250px;
+  text-align: center;
+    
+  }
+
