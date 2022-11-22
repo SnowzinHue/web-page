@@ -1,0 +1,26 @@
+<html>
+    <head>
+
+        <title> PRIMEIRO SITE </title>
+        <meta charset="UTF 8">
+        <script>
+        
+            function area(){
+                var quadrado = document.getElementById("quadrado")
+                var resultado = document.getElementById("resultado")
+                var x = quadrado.value
+                x= x*x
+                resultado.value = x 
+
+            }
+        
+        </script>
+    </head>
+
+    <body>
+        lado<input type= "text" id="quadrado"   > <br>   
+        area<input type= "text" id="resultado"   > <br>
+        <button onclick=" area()"> calcular área </button>   
+
+    </body>
+</html>

@@ -1,0 +1,386 @@
+body {
+    background-size: cover;
+    background-image: url("images/dark-abstract-black-minimal-4k-q0-1920x1080.jpg");
+    margin-top: 70px;
+    padding: 44px
+    
+   }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    font-family: fonte;
+    padding-top: 15px;
+    left: 0px;
+    
+    
+  }
+  
+  li {
+    font-family: fonte;
+  
+  
+  }
+
+
+
+
+#logo {
+  position: relative;
+  top: 1000px;
+  left: 0px;
+  width: 150px;
+  height:150px;
+}
+div#data-hora 
+{  
+  position: relative;
+  top: -25px;
+  left: 0px;
+  color: white;
+  font-family: fonte;
+  text-align: left;
+  width: 186px;
+  height: 0px;
+  float: right;
+  display: block;
+}
+#savage
+{
+  position: absolute;
+  top: 143px;
+  left: 0px;
+  width: 386px;
+  height: 260px;
+  border-radius: 25px;
+  border: 2px solid #000000;
+                }
+#shellshockers
+{
+   position: absolute;
+   top: 500px;
+   left: 550px;
+   width: 386px;
+   height: 260px;
+   border-radius: 25px;
+   border: 2px solid #000000;
+                }
+ #diepio
+{
+  position: absolute;
+  top: 500px;
+  left: 0px;
+  width: 386px;
+  height: 260px;
+  border-radius: 25px;
+  border: 2px solid #000000;
+                }               
+#careatscar2
+{
+  position: absolute;
+  top: 143px;
+  left: 1100px;
+  width: 386px;
+  height: 260px;
+  border-radius: 25px;
+  border: 2px solid #000000;
+                }
+ #fortnite
+{
+  position: absolute;
+  top: 500px;
+  left: 1100px;
+  width: 386px;
+  height: 260px;
+  border-radius: 25px;
+  border: 2px solid #000000;
+                }
+#campodate
+  {
+  position: absolute;
+   top: 143px;
+   left: 550px;
+   width: 386px;
+   height: 260px;
+   border-radius: 25px;
+   border: 2px solid #000000;
+                 }
+.btn1
+{ 
+  font-family: fonte;
+  position: absolute;
+  top: 350px;
+  left: 700px; 
+  background-color: #000000; 
+  border: 1px solid black;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-align: center;
+  transition: 0.5s;
+  border-radius: 4px;
+}
+
+.btn2
+{ 
+ font-family: fonte;
+ position: absolute;
+  top: 350px;
+  left: 150px;
+  background-color: #000000; 
+  border: 1px solid black;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-align: center;
+  transition: 0.5s;
+  border-radius: 4px;
+             }
+.btn3
+ { 
+font-family: fonte;
+ position: absolute;
+ top: 350px;
+ left: 1250px;
+ background-color: #000000; 
+ border: 1px solid black;
+ color: rgb(255, 255, 255);
+ padding: 10px 20px;
+ text-align: center;
+ transition: 0.5s;
+ border-radius: 4px;
+                          }        
+.btn4
+ { 
+font-family: fonte;
+ position: absolute;
+ top: 700px;
+ left: 150px;
+ background-color: #000000; 
+ border: 1px solid black;
+ color: rgb(255, 255, 255);
+ padding: 10px 20px;
+ text-align: center;
+ transition: 0.5s;
+ border-radius: 4px;
+                          }  
+ .btn5
+{ 
+  font-family: fonte;
+  position: absolute;
+  top: 700px;
+  left: 700px; 
+  background-color: #000000; 
+  border: 1px solid black;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-align: center;
+  transition: 0.5s;
+  border-radius: 4px;
+}          
+
+.btn6
+ { 
+font-family: fonte;
+ position: absolute;
+ top: 700px;
+ left: 1250px;
+ background-color: #000000; 
+ border: 1px solid black;
+ color: rgb(255, 255, 255);
+ padding: 10px 20px;
+ text-align: center;
+ transition: 0.5s;
+ border-radius: 4px;
+                          }      
+
+h2 
+{
+color: white;
+text-align: center;
+font-family: fonte;
+padding-top: 15px;
+left: 0px;
+top: 0px;
+            }
+div#gamesbrabos {
+position: relative;
+top: 0px;
+left: 59%; 
+transform: translateX(-50%);
+
+}
+
+@font-face {
+  font-family: Fonte;
+  src: url(fontes/Lato-Regular.ttf);
+}
+
+   h1 {
+  text-align: center;
+  font-size: 32px;
+  font-family: Fonte;
+   animation: example 6s linear 0s infinite;
+   }
+  
+   @keyframes example {
+
+    from {
+    color: #6666ff;
+  }
+  10% {
+    color: #0099ff;
+  }
+  25% {
+    color: #1606f8;
+  }
+  35% {
+    color: #eeff00;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
+  }
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+
+     ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 20px;
+  
+}
+
+li {
+  float: left;
+  width: 100px;
+  transition: width 0.5s;
+}
+ li:hover {
+  width: 300px;
+} 
+
+ li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ }
+
+li a:hover:not(.active) {
+  background-color: #000000;
+}
+
+.active {
+  background-color: #000000;
+}
+
+@font-face {
+   font-family: [nome];
+   src: url([fontes/Lato]);
+}
+@media screen and (max-width: 1600px) {
+  div#gamesbrabos {
+    position: relative;
+    left: 63%; 
+    transform: translateX(-50%);
+    top: 0px;
+  }
+  #savage {
+    left: -150px;
+  }
+  #diepio {
+    left: -150px;
+  }
+  #careatscar2{
+    left: 850px;
+  }
+  #campodate {
+    left: 350px;
+  }
+  #shellshockers {
+    left: 350px;
+  }
+  #fortnite {
+    left: 850px;
+
+  }
+
+
+  .btn2{
+left: 1px;
+  }
+  .btn4 {
+left: 1px;
+  }
+  .btn3 {
+left: 1005px;
+}
+  .btn1 {
+left: 505px;    
+  }
+  .btn5 {
+left: 505px;    
+      }
+  .btn6 {
+left: 1005px;
+}
+}
+@media screen and (max-width: 1280px) {
+  div#gamesbrabos {
+    position: relative;
+    left: 63%; 
+    transform: translateX(-50%);
+    top: 0px;
+  }
+  #savage {
+    left: -150px;
+  }
+  #diepio {
+    left: -150px;
+  }
+  #careatscar2{
+    left: 850px;
+  }
+  #campodate {
+    left: 350px;
+  }
+  #shellshockers {
+    left: 350px;
+  }
+  #fortnite {
+    left: 850px;
+
+  }
+
+
+  .btn2{
+left: 1px;
+  }
+  .btn4 {
+left: 1px;
+  }
+  .btn3 {
+left: 1005px;
+}
+  .btn1 {
+left: 505px;    
+  }
+  .btn5 {
+left: 505px;    
+      }
+  .btn6 {
+left: 1005px;
+}
+}

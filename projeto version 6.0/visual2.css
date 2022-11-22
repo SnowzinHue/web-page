@@ -1,0 +1,307 @@
+body {
+    background-image: url("images/dark-abstract-black-minimal-4k-q0-1920x1080.jpg");
+    background-color: #000000d4;
+    margin-top: 70px;
+    padding: 44px;
+  }
+  div#data-hora 
+  {  
+    position: relative;
+    top: -25px;
+    left: 0px;
+    color: white;
+    font-family: fonte;
+    text-align: left;
+    width: 186px;
+    height: 0px;
+    float: right;
+    display: block;
+  }
+
+#logo {
+  position: absolute;
+  top: 1200px;
+  left: 50%;
+  width: 150px;
+  height:150px;
+  transform: translateX(-50%);
+}
+
+ul {
+  background: #000000b3;
+  
+  
+
+}
+  h1 {
+    color: white;
+    text-align: center;
+    font-family: fonte;
+    padding-top: 15px;
+    top: -250px;
+    
+    
+  }
+  
+  li {
+    font-family: fonte;
+    z-index: 2;
+  }
+ h2 {
+  font-family: fonte;
+  font-size: 20px;
+  color: white;  
+  position: relative;
+  top: 270px;
+  text-align: center;
+
+    
+  }
+
+  #discord {
+ position: relative;
+ top: 275px;
+left: 50%; 
+transform: translateX(-50%);
+ height: 50px;
+ width: auto;
+ text-align: center;
+ transition: all 0.5s;
+   }
+  
+  iframe 
+  {
+    position: relative
+    
+  }
+  
+  .container {
+    text-align: center;
+    position: relative;
+    top: 141px;
+    
+}
+
+.container > iframe {
+
+  background: black;
+    border: none;
+
+    height: 450px;
+    width: 900px;
+    
+}
+
+
+@font-face {
+  font-family: Fonte;
+  src: url(fontes/Lato-Regular.ttf);
+}
+
+   #discord:hover
+   {
+     opacity: 0.5;
+   }
+   
+   h1 {
+  text-align: center;
+  font-size: 32px;
+  font-family: Fonte;
+   animation: example 6s linear 0s infinite;
+   }
+  
+   @keyframes example {
+
+    from {
+    color: #6666ff;
+  }
+  10% {
+    color: #0099ff;
+  }
+  25% {
+    color: #1606f8;
+  }
+  35% {
+    color: #eeff00;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
+  }
+}   
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #33333345;
+  z-index: 2;
+  }
+
+li {
+  float: left;
+  width: 100px;
+  transition: width 0.5s;
+}
+li:hover {
+  width: 300px;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #000000;
+}
+.btn1
+{ 
+  font-family: fonte;
+  position: absolute;
+  top: 100px;
+  background-color: #000000; 
+  border: 1px solid black;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-align: center;
+  transition: 0.5s;
+  border-radius: 4px;
+  left: 50%; 
+  transform: translateX(-50%);
+}
+.btn2
+{ 
+  font-family: fonte;
+  position: absolute;
+  top: 100px;
+  left: 855px; 
+  background-color: #000000; 
+  border: 1px solid black;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-align: center;
+  transition: 0.5s;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+#fortnite
+{
+  position: absolute;
+  top: -85px;
+  width: 664px;
+  height: 399px;
+  border-radius: 25px;
+  border: 2px solid #000000;
+  left: 50%; 
+  transform: translateX(-50%);
+                }
+ div#download {
+position: absolute;
+top: 150px;
+background: #000000b3;
+width: 1000px;
+height: 300px;
+border-radius: 10px;
+left: 50%; 
+transform: translateX(-50%);
+
+              }
+ 
+.banner {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+}
+.banner {
+  position: relative;
+  z-index: 1;
+}
+.content {
+  position: relative;
+  z-index: 2;
+}
+
+ @media screen and (max-width: 1600px) {
+ .btn2 {
+  position: absolute;
+  left: 50%; 
+  transform: translateX(-50%);
+}
+ 
+ }
+
+ .btn1 {
+  position: absolute;
+  left: 50%; 
+  transform: translateX(-50%);
+}
+ 
+
+  #fortnite {
+  position: absolute;
+  top: -85px;
+  left: 50%; 
+  transform: translateX(-50%);
+}
+
+  div#download {
+    left: 50%; 
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: 1280px) {
+  .btn2 {
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%);
+  }
+   
+   }
+  
+   .btn1 {
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%);
+  }
+   
+  
+    #fortnite {
+    position: absolute;
+    top: -85px;
+    left: 50%; 
+    transform: translateX(-50%);
+  }
+  
+    div#download {
+      left: 50%; 
+    transform: translateX(-50%);
+  }
+
+
+ 

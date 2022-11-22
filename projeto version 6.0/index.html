@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="visual.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/x-icon" href="images/Novo Projeto.png">
+    <div id="data-hora"></div>
+    <title>Snow Games</title> 
+ 
+ <script>
+
+const options = {
+	timeZone: 'America/Sao_Paulo',
+	hour: 'numeric',
+	minute: 'numeric'
+};
+const date = new Intl.DateTimeFormat([], options);
+console.log(date.format(new Date()));
+
+   // Função para formatar 1 em 01
+   const zeroFill = n => {
+     return ('0' + n).slice(-2);
+   }
+
+   // Cria intervalo
+   const interval = setInterval(() => {
+     // Pega o horário atual
+     const now = new Date();
+
+     // Formata a data conforme dd/mm/aaaa hh:ii:ss
+     const dataHora = zeroFill(now.getUTCDate()) + '/' + zeroFill((now.getMonth() + 1)) + '/' + now.getFullYear() + ' ' + zeroFill(now.getHours()) + ':' + zeroFill(now.getMinutes()) + ':' + zeroFill(now.getSeconds());
+
+     // Exibe na tela usando a div#data-hora
+     document.getElementById('data-hora').innerHTML = dataHora;
+   }, 1000);
+ </script>  
+</head>
+  
+<body>
+  <ul>
+     <li><a href="index.html">Inicio</a></li>
+   <li><a href="parceiros.html">Parceiros</a></li>
+   <li><a href="contato.html">Contato</a></li>
+<li style="float:right"><a class="active" href="sobre.html">Sobre</a></li>
+    </ul>  
+    <h1>SNOW GAMES</h1>
+
+   <div id="gamesbrabos">
+    <img id="savage" src="images/savagepursuit-b10c-cover-en.jpg">
+    <img id="campodate" src="images/campo date.png">
+    <img id="careatscar2" src="images/car-eats-car-2.png">
+    <img id="diepio" src="images/diep.io.jpg">
+    <img id="shellshockers" src="images/previewImage_shellShockers.jpg">
+    <img id="fortnite" src="images/22BR_C3S4_EGS_StoreArt_Blade_2560x1440_2560x1440-d2d92800a59a2a71101041c4a98dfd12.webp">
+    <a href="pagina_date.html"><button type="button" class="btn1"> JOGAR </button></a>
+    <a href="savage.html"><button type="button" class="btn2"> JOGAR </button></a>
+    <a href="CarsEatCars.html"><button type="button" class="btn3"> JOGAR </button></a>
+    <a href="https://diep.io"><button type="button" class="btn4"> JOGAR </button></a>
+    <a href="shellshockers.html"><button type="button" class="btn5"> JOGAR </button></a>
+    <a href="fortnite.html"><button type="button" class="btn6"> JOGAR </button></a>
+
+    
+    
+  </div> 
+ 
+<center>
+  <img id="logo" src="images/Novo Projeto.png"  width="500px" height="500px">
+</center>
+ </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="visual2.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/x-icon" href="images/Novo Projeto.png">
+    <div id="data-hora"></div>
+    <title>parceiros</title>
+ <script>
+   const options = {
+	timeZone: 'America/Sao_Paulo',
+	hour: 'numeric',
+	minute: 'numeric'
+};
+const date = new Intl.DateTimeFormat([], options);
+console.log(date.format(new Date()));
+
+   // Função para formatar 1 em 01
+   const zeroFill = n => {
+     return ('0' + n).slice(-2);
+   }
+
+   // Cria intervalo
+   const interval = setInterval(() => {
+     // Pega o horário atual
+     const now = new Date();
+
+     // Formata a data conforme dd/mm/aaaa hh:ii:ss
+     const dataHora = zeroFill(now.getUTCDate()) + '/' + zeroFill((now.getMonth() + 1)) + '/' + now.getFullYear() + ' ' + zeroFill(now.getHours()) + ':' + zeroFill(now.getMinutes()) + ':' + zeroFill(now.getSeconds());
+
+     // Exibe na tela usando a div#data-hora
+     document.getElementById('data-hora').innerHTML = dataHora;
+   }, 1000);
+ </script>
+ 
+</head>
+  
+<body>
+    
+    <div class="content">
+      <ul>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="parceiros.html">Parceiros</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li style="float:right"><a class="active" href="sobre.html">Sobre</a></li>
+        </ul>  
+      </ul> 
+    <h1>Parceiros</h1>
+    <h2><br>Em Produção....</br></h2> 
+    <img id="logo" src="images/Novo Projeto.png"  width="500px" height="500px">
+  </div>
+<center>
+  <div class="banner">
+    <video autoplay muted loop><source src="/Videos/videoplayback.webm"></video>
+   </div>
+   
+</center>
+ </body>
+</html>

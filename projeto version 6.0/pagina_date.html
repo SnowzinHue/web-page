@@ -1,0 +1,68 @@
+<HTML>
+
+   <HEAD>
+	<TITLE> Título - Imprimir Nome </TITLE>
+    
+	<SCRIPT>
+	   function mostrarData() {
+		var nome= document.getElementById("c_nome").value;
+		var snome= document.getElementById("c_snome").value;
+
+		var inicial = document.getElementById("c_inicio").value;
+		var final   = document.getElementById("c_fim").value;
+		
+    		var partes_ini = inicial.split("-");
+		var partes_fim = final.split("-");
+
+		var dia_ini = partes_ini[2];
+		var dia_fim = partes_fim[2];
+		var dias    = dia_fim - dia_ini;
+
+		var mes_ini = partes_ini[1];
+		var mes_fim = partes_fim[1];
+		var meses   = mes_fim - mes_ini;
+
+		if(meses > 0){
+			dias = meses*30 + dias;
+		} else {
+			dias = dias;
+		}
+
+    		//var ano = partes[0];
+		//var ano_convertido = parseInt(ano)
+		
+		alert("O intervalo escolhido de "+nome+" é de : "+dias+" dias.");
+	   }
+	</SCRIPT>
+	<link rel="stylesheet" href="visual.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="icon" type="image/x-icon" href="images/Novo Projeto.png">
+	<div id="data-hora"></div>
+  </HEAD>
+
+   <BODY>
+	<ul>
+		<li><a href="index.html">Inicio</a></li>
+	  <li><a href="parceiros.html">Parceiros</a></li>
+	  <li><a href="contato.html">Contato</a></li>
+   <li style="float:right"><a class="active" href="sobre.html">Sobre</a></li>
+		 </ul> 
+	<h2>Digite o seu nome     :&nbsp &nbsp &nbsp
+	<INPUT TYPE="text"   ID="c_nome" />
+	<BR/>
+	Digite seu sobre nome:
+	<INPUT TYPE="text"   ID="c_snome" />
+	<BR/>
+	<BR/>
+	Selecione a data inicial:
+	<INPUT TYPE="date"   ID="c_inicio" />
+	<BR/>
+	<BR/>
+	Selecione a data final:
+	<INPUT TYPE="date"   ID="c_fim" />
+	<BR/>
+	<BR/>
+	<INPUT TYPE="button" ID="b_nome" VALUE="Calcular"  onclick="mostrarData()" /></h2>
+	 
+   </BODY>
+</HTML>
